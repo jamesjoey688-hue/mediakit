@@ -8,11 +8,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#f3d4e0;display:flex;justify-content:center;padding:24px;font-family:'Segoe UI',Inter,Arial,sans-serif;min-height:100vh}
 .mk{background:radial-gradient(circle at 50% 18%, #ffd6e8 0%, #ff9fc4 22%, #ff5fa0 45%, #f0408a 65%, #d6217a 85%, #c2126e 100%);color:#fff;border-radius:24px;overflow:hidden;width:100%;max-width:900px;box-shadow:0 10px 60px rgba(232,38,106,0.3)}
-.ed{outline:none;border-bottom:1px dashed rgba(255,255,255,0.5);cursor:text;display:inline-block;transition:border-color .2s;border-radius:3px}
-.ed:focus{border-bottom-color:#fff;background:rgba(255,255,255,0.15)}
-.hint{font-size:11px;color:rgba(255,255,255,.75);letter-spacing:.06em;text-transform:uppercase;padding:14px 36px 0;display:flex;align-items:center;gap:6px}
-.hint::before{content:'';width:6px;height:6px;border-radius:50%;background:#fff;display:inline-block;animation:p 2s infinite}
-@keyframes p{0%,100%{opacity:1}50%{opacity:.3}}
+
 .avail{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:6px 16px;font-size:12px;color:#fff;margin-bottom:18px;font-weight:600}
 .dot{width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 8px #fff}
 .hero{padding:40px 36px 30px;text-align:center}
@@ -79,29 +75,29 @@ h1{font-size:38px;font-weight:800;line-height:1.1;margin-bottom:8px;letter-spaci
 </head>
 <body>
 <div class="mk">
-<p class="hint">Click any value to edit live</p>
+
 
 <div class="hero">
   <div class="logo-circle"><span>🏃‍♀️</span></div>
   <div class="avail"><span class="dot"></span>Available for partnerships</div>
-  <h1>Home Fitness <span class="ed" contenteditable>For Women</span></h1>
-  <p class="sub">Pinterest fitness creator — <span class="ed" contenteditable>US women's wellness &amp; belly fat niche</span></p>
+  <h1>Home Fitness <span>For Women</span></h1>
+  <p class="sub">Pinterest fitness creator — <span>US women's wellness &amp; belly fat niche</span></p>
   <div class="tags">
-    <span class="tag ed" contenteditable>Belly fat &amp; core</span>
-    <span class="tag ed" contenteditable>Home fitness</span>
-    <span class="tag ed" contenteditable>Mom fitness</span>
-    <span class="tag ed" contenteditable>Women's wellness</span>
-    <span class="tag ed" contenteditable>Activewear</span>
+    <span class="tag">Belly fat &amp; core</span>
+    <span class="tag">Home fitness</span>
+    <span class="tag">Mom fitness</span>
+    <span class="tag">Women's wellness</span>
+    <span class="tag">Activewear</span>
   </div>
 </div>
 
 <div class="sec">
   <p class="lbl">Performance — Last 30 Days</p>
   <div class="sg">
-    <div class="sc"><div class="sn"><span class="ed" contenteditable>858</span>K</div><div class="sl">Monthly Views</div></div>
-    <div class="sc"><div class="sn"><span class="ed" contenteditable>850.6</span>K</div><div class="sl">Total Impressions</div></div>
-    <div class="sc"><div class="sn"><span class="ed" contenteditable>49.8</span>K</div><div class="sl">Total Engagements</div></div>
-    <div class="sc"><div class="sn"><span class="ed" contenteditable>8.8</span>K</div><div class="sl">Total Saves</div></div>
+    <div class="sc"><div class="sn"><span>858</span>K</div><div class="sl">Monthly Views</div></div>
+    <div class="sc"><div class="sn"><span>850.6</span>K</div><div class="sl">Total Impressions</div></div>
+    <div class="sc"><div class="sn"><span>49.8</span>K</div><div class="sl">Total Engagements</div></div>
+    <div class="sc"><div class="sn"><span>8.8</span>K</div><div class="sl">Total Saves</div></div>
   </div>
 </div>
 
@@ -110,16 +106,16 @@ h1{font-size:38px;font-weight:800;line-height:1.1;margin-bottom:8px;letter-spaci
   <div class="dg">
     <div class="db">
       <p class="dt">Top Countries</p>
-      <div class="br"><div class="bl"><span class="ed" contenteditable>United States</span><span><span class="ed" contenteditable id="u1">22.5</span>%</span></div><div class="bt"><div class="bf" id="b1" style="width:22.5%"></div></div></div>
-      <div class="br"><div class="bl"><span class="ed" contenteditable>India</span><span><span class="ed" contenteditable id="u2">23</span>%</span></div><div class="bt"><div class="bf" id="b2" style="width:23%"></div></div></div>
-      <div class="br"><div class="bl"><span class="ed" contenteditable>Other markets</span><span><span class="ed" contenteditable id="u3">54.5</span>%</span></div><div class="bt"><div class="bf t" id="b3" style="width:54.5%"></div></div></div>
+      <div class="br"><div class="bl"><span>United States</span><span><span id="u1">22.5</span>%</span></div><div class="bt"><div class="bf" id="b1" style="width:22.5%"></div></div></div>
+      <div class="br"><div class="bl"><span>India</span><span><span id="u2">23</span>%</span></div><div class="bt"><div class="bf" id="b2" style="width:23%"></div></div></div>
+      <div class="br"><div class="bl"><span>Other markets</span><span><span id="u3">54.5</span>%</span></div><div class="bt"><div class="bf t" id="b3" style="width:54.5%"></div></div></div>
     </div>
     <div class="db">
       <p class="dt">Age Groups</p>
-      <div class="br"><div class="bl"><span>18–24</span><span><span class="ed" contenteditable id="u4">29</span>%</span></div><div class="bt"><div class="bf" id="b4" style="width:29%"></div></div></div>
-      <div class="br"><div class="bl"><span>25–34 <small style="color:#c98ba0">(top)</small></span><span><span class="ed" contenteditable id="u5">35</span>%</span></div><div class="bt"><div class="bf" id="b5" style="width:35%"></div></div></div>
-      <div class="br"><div class="bl"><span>35–44</span><span><span class="ed" contenteditable id="u6">16.5</span>%</span></div><div class="bt"><div class="bf t" id="b6" style="width:16.5%"></div></div></div>
-      <div class="br"><div class="bl"><span>45+</span><span><span class="ed" contenteditable id="u7">10</span>%</span></div><div class="bt"><div class="bf t" id="b7" style="width:10%"></div></div></div>
+      <div class="br"><div class="bl"><span>18–24</span><span><span id="u4">29</span>%</span></div><div class="bt"><div class="bf" id="b4" style="width:29%"></div></div></div>
+      <div class="br"><div class="bl"><span>25–34 <small style="color:#c98ba0">(top)</small></span><span><span id="u5">35</span>%</span></div><div class="bt"><div class="bf" id="b5" style="width:35%"></div></div></div>
+      <div class="br"><div class="bl"><span>35–44</span><span><span id="u6">16.5</span>%</span></div><div class="bt"><div class="bf t" id="b6" style="width:16.5%"></div></div></div>
+      <div class="br"><div class="bl"><span>45+</span><span><span id="u7">10</span>%</span></div><div class="bt"><div class="bf t" id="b7" style="width:10%"></div></div></div>
     </div>
   </div>
 </div>
@@ -127,9 +123,9 @@ h1{font-size:38px;font-weight:800;line-height:1.1;margin-bottom:8px;letter-spaci
 <div class="sec">
   <p class="lbl">Top Content Categories</p>
   <div class="cg">
-    <div class="cc"><div class="ci">🔥</div><div class="cn ed" contenteditable>Belly Fat &amp; Core Workouts</div></div>
-    <div class="cc"><div class="ci">🏠</div><div class="cn ed" contenteditable>Home Fitness &amp; Weight Loss</div></div>
-    <div class="cc"><div class="ci">💪</div><div class="cn ed" contenteditable>Mom Fitness</div></div>
+    <div class="cc"><div class="ci">🔥</div><div class="cn">Belly Fat &amp; Core Workouts</div></div>
+    <div class="cc"><div class="ci">🏠</div><div class="cn">Home Fitness &amp; Weight Loss</div></div>
+    <div class="cc"><div class="ci">💪</div><div class="cn">Mom Fitness</div></div>
   </div>
 </div>
 
@@ -151,31 +147,31 @@ h1{font-size:38px;font-weight:800;line-height:1.1;margin-bottom:8px;letter-spaci
   <div class="pg">
     <div class="pc">
       <p class="pt">Single Pin</p>
-      <p class="pp"><span class="ed" contenteditable>$75</span> <s><span class="ed" contenteditable>$100</span></s></p>
+      <p class="pp"><span>$75</span> <s><span>$100</span></s></p>
       <hr class="pd">
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>1 premium static pin</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>SEO-optimised copy</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Direct outbound link</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Targeted keywords</span></div>
+      <div class="pf"><span class="pdot"></span><span>1 premium static pin</span></div>
+      <div class="pf"><span class="pdot"></span><span>SEO-optimised copy</span></div>
+      <div class="pf"><span class="pdot"></span><span>Direct outbound link</span></div>
+      <div class="pf"><span class="pdot"></span><span>Targeted keywords</span></div>
     </div>
     <div class="pc ft">
       <div class="bb">Best Value</div>
       <p class="pt">3-Pin Bundle</p>
-      <p class="pp"><span class="ed" contenteditable>$200</span> <s><span class="ed" contenteditable>$250</span></s></p>
+      <p class="pp"><span>$200</span> <s><span>$250</span></s></p>
       <hr class="pd">
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>3 premium static pins</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Spread over 30 days</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Multi-board targeting</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Performance report</span></div>
+      <div class="pf"><span class="pdot"></span><span>3 premium static pins</span></div>
+      <div class="pf"><span class="pdot"></span><span>Spread over 30 days</span></div>
+      <div class="pf"><span class="pdot"></span><span>Multi-board targeting</span></div>
+      <div class="pf"><span class="pdot"></span><span>Performance report</span></div>
     </div>
     <div class="pc">
       <p class="pt">Monthly Package</p>
-      <p class="pp"><span class="ed" contenteditable>$350</span> <s><span class="ed" contenteditable>$400</span></s></p>
+      <p class="pp"><span>$350</span> <s><span>$400</span></s></p>
       <hr class="pd">
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Full monthly presence</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Multiple pin formats</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Board feature included</span></div>
-      <div class="pf"><span class="pdot"></span><span class="ed" contenteditable>Analytics report</span></div>
+      <div class="pf"><span class="pdot"></span><span>Full monthly presence</span></div>
+      <div class="pf"><span class="pdot"></span><span>Multiple pin formats</span></div>
+      <div class="pf"><span class="pdot"></span><span>Board feature included</span></div>
+      <div class="pf"><span class="pdot"></span><span>Analytics report</span></div>
     </div>
   </div>
 </div>
@@ -183,26 +179,21 @@ h1{font-size:38px;font-weight:800;line-height:1.1;margin-bottom:8px;letter-spaci
 <div class="sec">
   <p class="lbl">Get In Touch</p>
   <div class="cotg">
-    <div class="coi"><div class="coic">@</div><div class="cov ed" contenteditable>fitwomenhub.oo@gmail.com</div></div>
-    <div class="coi"><div class="coic">P</div><div class="cov ed" contenteditable>pinterest.com/homefitnessforwomen</div></div>
+    <div class="coi"><div class="coic">@</div><div class="cov">fitwomenhub.oo@gmail.com</div></div>
+    <div class="coi"><div class="coic">P</div><div class="cov">pinterest.com/homefitnessforwomen</div></div>
   </div>
 </div>
 
 <div class="ft-bar">
   <span class="ft-t">Home Fitness For Women — Media Kit</span>
-  <span class="ft-t ed" contenteditable>2026 · 858K monthly views</span>
+  <span class="ft-t">2026 · 858K monthly views</span>
 </div>
 </div>
 
 <script>
-// Bar updates
-[['u1','b1'],['u2','b2'],['u3','b3'],['u4','b4'],['u5','b5'],['u6','b6'],['u7','b7']].forEach(([pid,bid])=>{
-  const p=document.getElementById(pid),b=document.getElementById(bid);
-  if(p&&b)p.addEventListener('input',()=>{b.style.width=Math.min(100,parseFloat(p.textContent)||0)+'%'});
-});
+
 
 // Carousel
-// Try multiple formats for each pin
 function tryFormats(n) {
   return ['png','jpg','jpeg'].map(ext => `pins/${n}.${ext}`);
 }
@@ -214,7 +205,6 @@ let offset = 0;
 const cardW = 212;
 const visible = 4;
 
-// Render cards - try png first, fallback to jpg
 pins.forEach((pin, i) => {
   const card = document.createElement('div');
   card.className = 'pin-card';
