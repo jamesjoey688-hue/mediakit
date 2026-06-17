@@ -195,7 +195,7 @@ h1{font-size:38px;font-weight:800;line-height:1.1;margin-bottom:8px;letter-spaci
 
 // Carousel
 function tryFormats(n) {
-  return ['png','jpg','jpeg'].map(ext => `pins/${n}.${ext}`);
+  return ['png','jpg','jpeg','jpg.png','jpeg.png'].map(ext => `pins/${n}.${ext}`);
 }
 const pins = [1,2,3,4,5,6,7,8].map(n => ({ imgs: tryFormats(n) }));
 
